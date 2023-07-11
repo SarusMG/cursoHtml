@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Mi Pagina</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <table style="width: 300px;">
+        <!--la etiqueta de tr es filas de la tabla-->
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Hamburguesa</td>
+                <td>2$</td>
+            </tr>
+            <tr>
+                <td>Pepito</td>
+                <td>5$</td>
+            </tr>
+            <tr>
+                <td>Pizza</td>
+                <td>15$</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td>Total</td>
+            <td>22$</td>
+        </tfoot>
+    </table>
+    <!-- ul es lista no ordenada-->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+    </ul>
+    <!-- ol es lista ordenada-->
+    <ol>
+        <li value="10">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+
+        <ol>
+            <li style="list-style-type: lower-alpha;">Sub elemento 1</li>
+            <li style="list-style-type: lower-alpha;">Sub elemento 2</li>
+            <li style="list-style-type: lower-alpha;">Sub elemento 3</li>
+        </ol>
+    </ol>
+    <form action="/formulario" method="GET">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre" />
+        <br><br>
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Apellido" />
+        <!-- <input type="button" name="boton" />
+        <input type="radio" />
+        <input type="file" />
+        <input type="checkbox" />
+        <input type="color" />  los tipos de input-->
+        <br>
+        <label for="comentario">comentario</label> <br>
+        <textarea cols="50" rows="10" id="comentario" placeholder="Ingresa un comentario" name="comentario"></textarea>
+        <br>
+        <button type="button">Tipo boton</button>
+        <button type="submit">Tipo Submit</button>
+        <button type="reset">Tipo Reset</button>
+
+
+    </form>
+    <h1>Contenido de mi Web</h1>
+    <h2>Contenido de mi Web 2</h2>
+    <h3>Contenido de mi Web 3</h3>
+    <h4>Contenido de mi Web 4</h4>
+    <h5>Contenido de mi Web 5</h5>
+    <h6>Contenido de mi Web 6</h6>
+    <p>hola este es el Contenido de mi pagiga</p>
+    <p>pero me gusta que salga en diferentes lineas <br>
+        o con ,<span style="color: cornflowerblue;">color diferente</span>
+    </p>
+    <br> <!--salto de linea y la etiqueta de <hr>
+    sirve para colocar una linea para separar texto-->
+
+    <h2>Segundo contenido de mi pagina</h2>
+    <!-- esto es un comentario-->
+    <a target="_blank" href="https://www.google.com">Ir a Google</a>
+    <!-- target sirve para abrir una nueva ventana
+    con el link y href sirve para colocar la url-->
+    <img src="Img/foto.png" height="400" />
+</body>
+<br>
+<footer>Derechos reservados @sarus</footer>
+
+</html>
